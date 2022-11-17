@@ -5,6 +5,7 @@ importers:
   .:
     specifiers:
       '@antfu/eslint-config': ^0.25.2
+      '@simon_he/identify-person': workspace:^0.0.1
       '@tensorflow-models/posenet': ^2.2.2
       '@tensorflow/tfjs': ^4.0.0
       '@tensorflow/tfjs-backend-webgl': ^4.0.0
@@ -24,6 +25,7 @@ importers:
       vitest: ^0.13.1
       vue: ^3.2.41
     dependencies:
+      '@simon_he/identify-person': 'link:'
       '@tensorflow-models/posenet': 2.2.2_5oijyfasgqwn5tyz7gewk5laja
       '@tensorflow/tfjs': 4.0.0
       '@tensorflow/tfjs-backend-webgl': 4.0.0_hdmpc5coifabqk2ogondqkcwg4

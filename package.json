@@ -22,12 +22,15 @@
       "require": "./dist/index.js",
       "import": "./dist/index.mjs"
     }
+
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "src",
+    "dist/*.js",
+    "dist/*.mjs"
   ],
   "engines": {
     "node": ">=14.6"
@@ -48,6 +51,7 @@
     "release": "bumpp --commit --tag --push && git push origin --tags -f && npm publish"
   },
   "dependencies": {
+    "@simon_he/identify-person": "workspace:^0.0.1",
     "@tensorflow-models/posenet": "^2.2.2",
     "@tensorflow/tfjs": "^4.0.0",
     "@tensorflow/tfjs-backend-webgl": "^4.0.0",
