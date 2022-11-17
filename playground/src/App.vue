@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import identifyPerson from '../../dist'
+import identifyPerson from '../../src'
 const color = ref('#0066cc')
 const canvasBg = ref()
 const cvs = ref()
