@@ -1,5 +1,5 @@
 # identify-person
-抓取video中的人像转换成base64格式图片
+抓取video中的人像与其他颜色的背景合成新的图片
 
 ## Install
 ```
